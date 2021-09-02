@@ -2,9 +2,24 @@
 @import "../styles/reset";
 @import "../styles/variables";
 
-@import "~webext-base-css/webext-base.css";
 
 body {
   color: $black;
   background-color: $greyWhite;
+}
+
+
+.wrap{
+  position: relative;
+  // width: 100vw;
+  // height: 100vh;
+  video{
+    position: absolute;top: 0;bottom: 0;left: 0;right: 0;
+  }
+  .codearea{
+    position: absolute;top: 0;bottom: 0;left: 0;right: 0;
+  }
+  .panel{
+    position: absolute;width: 720px ;height: 600px;padding: 100px 40px;box-sizing: border-box
+  }
 }

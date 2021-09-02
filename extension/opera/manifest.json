@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "name": "Sample WebExtension",
+  "name": "__MSG_appName__",
   "version": "2.0.0",
   "icons": {
     "16": "assets/icons/favicon-16.png",
@@ -8,19 +8,17 @@
     "48": "assets/icons/favicon-48.png",
     "128": "assets/icons/favicon-128.png"
   },
-  "description": "Sample description",
-  "homepage_url": "https://github.com/abhijithvijayan/web-extension-starter",
+  "default_locale": "en",
+  "description": "__MSG_appDescription__",
   "short_name": "Sample Name",
   "permissions": [
     "activeTab",
     "storage",
-    "http://*/*",
-    "https://*/*"
+    "search",
+    "<all_urls>",
+    "contextMenus"
   ],
   "content_security_policy": "script-src 'self'; object-src 'self'",
-  "developer": {
-    "name": "abhijithvijayan"
-  },
   "minimum_opera_version": "36",
   "browser_action": {
     "default_popup": "popup.html",
@@ -32,11 +30,6 @@
     },
     "default_title": "tiny title",
     "chrome_style": false
-  },
-  "options_page": "options.html",
-  "options_ui": {
-    "page": "options.html",
-    "open_in_tab": true
   },
   "background": {
     "scripts": [

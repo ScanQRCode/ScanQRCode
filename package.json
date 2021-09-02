@@ -3,12 +3,6 @@
   "version": "2.0.0",
   "description": "Web extension starter using react and typescript",
   "private": true,
-  "repository": "https://github.com/abhijithvijayan/web-extension-starter.git",
-  "author": {
-    "name": "abhijithvijayan",
-    "email": "email@abhijithvijayan.in",
-    "url": "https://abhijithvijayan.in"
-  },
   "license": "MIT",
   "engines": {
     "node": ">=10.0.0",
@@ -29,15 +23,13 @@
     "@babel/runtime": "^7.14.0",
     "advanced-css-reset": "^1.2.2",
     "emoji-log": "^1.0.2",
+    "jsqr": "^1.4.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "webext-base-css": "^1.3.1",
     "webextension-polyfill-ts": "^0.25.0"
   },
   "devDependencies": {
-    "@abhijithvijayan/eslint-config": "2.6.3",
-    "@abhijithvijayan/eslint-config-airbnb": "^1.0.2",
-    "@abhijithvijayan/tsconfig": "^1.3.0",
     "@babel/core": "^7.14.3",
     "@babel/eslint-parser": "^7.12.16",
     "@babel/plugin-proposal-class-properties": "^7.13.0",

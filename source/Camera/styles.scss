@@ -1,0 +1,70 @@
+@import "../styles/fonts";
+@import "../styles/reset";
+@import "../styles/variables";
+
+
+body {
+    color: $black;
+    background-color: rgba(40, 44, 52, 0.5);
+    // background-color: $greyWhite;
+    overflow: hidden;
+}
+
+
+.wrap {
+    position: relative;
+    video {
+        position: absolute;
+    }
+
+    .codearea {
+        position: absolute;
+    }
+
+    .panel {
+        position: absolute;
+        background: rgba(40, 44, 52, 0.5);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+		justify-content: center;
+        .result-title {
+            font-size: 38px;
+            // margin-top: 28%;
+			margin-top: -10%;
+            color:#FCD000;
+			font-weight: 600;
+        }
+
+        .result-data {
+            font-size: 22px;
+            margin-top: 32px;
+            color: #fff;
+            cursor: pointer;
+			word-break: break-all;
+			padding: 0 20px;
+        }
+
+        .result-data:hover {
+            text-decoration: underline;
+			
+        }
+		.action{
+			button{
+				background-color: #3eb5c5;
+				color: rgb(238, 238, 238);
+				padding:6px 12px;
+				border-radius: 16px;
+				cursor: pointer;
+			}
+			button:hover{
+				background-color: #76cbd6;
+			}
+			font-size: 16px;
+			margin-top: 36px;
+			width: 300px;
+			display: flex;
+			justify-content: space-between;
+		}
+    }
+}

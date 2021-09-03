@@ -14,6 +14,9 @@
     "screenshot_title":{
         "message":"截屏扫码"
     },
+    "parseerror":{
+        "message":"解析二维码失败"
+    },
     "copysuccessful":{
         "message":"复制成功"
     },
